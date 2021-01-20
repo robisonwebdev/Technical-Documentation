@@ -12,6 +12,10 @@ body, #navbar, .main-section {
 }
 
 /* Main Header */
+#div-header {
+    width: 100%;
+}
+
 #main-header {
     background-color: dimgray;
     padding: 20px 0;
