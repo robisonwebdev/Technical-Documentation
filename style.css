@@ -4,11 +4,17 @@
 }
 
 /* Multi Flex Setup */
-body, #navbar, .main-section {
+body, #header-nav, #navbar, .main-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+/* Header - Nav */
+#header-nav {
+    height: 205px;
+    width: 100%;
 }
 
 /* Main Header */
@@ -25,7 +31,6 @@ body, #navbar, .main-section {
 
 /* Navigation */
 #nav-div {
-    height: 25vh;
     overflow: auto;
     width: 100%;
 }
@@ -56,8 +61,7 @@ body, #navbar, .main-section {
         justify-content: flex-start;
     }
 
-    /* Navigation */
-    #nav-div {
+    #header-nav {
         height: 100vh;
         width: 250px;
     }
