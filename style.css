@@ -13,6 +13,8 @@ body, #navbar, .main-section {
 
 /* Navigation */
 #nav-div {
+    height: 25vh;
+    overflow: auto;
     width: 100%;
 }
 
@@ -22,7 +24,11 @@ body, #navbar, .main-section {
 
 #nav-header {
     background-color: dimgray;
-    padding: 20px;
+    padding: 20px 0;
     text-align: center;
     width: 100%;
+}
+
+.nav-link {
+    padding: 15px 0;
 }
