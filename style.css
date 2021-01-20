@@ -11,3 +11,18 @@ body, #navbar, .main-section {
     justify-content: center;
 }
 
+/* Navigation */
+#nav-div {
+    width: 100%;
+}
+
+#navbar {
+    margin: 0 auto;
+}
+
+#nav-header {
+    background-color: dimgray;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
