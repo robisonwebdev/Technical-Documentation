@@ -61,8 +61,16 @@ body, #header-nav, #navbar, .main-section {
         justify-content: flex-start;
     }
 
+    /* Header - Nav */
     #header-nav {
         height: 100vh;
+        position: fixed;
         width: 250px;
+    }
+
+    /* Main Content */
+    #main-div {
+        left: 250px;
+        position: absolute;
     }
 }
