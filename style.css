@@ -31,4 +31,14 @@ body, #navbar, .main-section {
 
 .nav-link {
     padding: 15px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.nav-link:nth-child(odd) {
+    background-color: gainsboro;
+}
+
+.nav-link:nth-child(even) {
+    background-color: grey;
 }
