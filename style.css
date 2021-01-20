@@ -4,7 +4,7 @@
 }
 
 /* Multi Flex Setup */
-body, #header-nav, #navbar, .main-section {
+body, #header-nav, #navbar  {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,6 +53,48 @@ body, #header-nav, #navbar, .main-section {
     background-color: grey;
 }
 
+/* Main Content */
+#main-div {
+    width: 100%;
+    overflow: auto;
+}
+
+#main-doc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 35px 25px;
+    width: 100%;
+}
+
+.main-section header {
+    font-size: 24px;
+}
+
+.main-section p {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+}
+
+.main-section code {
+    background-color: lightgoldenrodyellow;
+    border-left: 4px solid black;
+    font-size: 14px;
+    margin-left: 25px;
+    margin-top: 20px;
+    padding: 20px 15px;
+}
+
+
+
 /* Media Queries */
 @media only screen and (min-width: 700px) {
     body {
@@ -67,11 +109,13 @@ body, #header-nav, #navbar, .main-section {
         height: 100vh;
         position: fixed;
         width: 250px;
+        z-index: 2;
     }
 
     /* Main Content */
     #main-div {
         left: 250px;
         position: absolute;
+        z-index: 1;
     }
 }
