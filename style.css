@@ -139,7 +139,7 @@ code {
     #main-div {
         left: 250px;
         position: absolute;
-        width: 100%;
+        width: calc(100% - 180px);
         z-index: 1;
     }
 
