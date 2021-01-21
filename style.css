@@ -54,6 +54,7 @@ body {
 .nav-link {
     padding: 15px 0;
     text-align: center;
+    text-decoration: none;
     width: 100%;
 }
 
@@ -124,6 +125,7 @@ code {
     /* Header - Nav */
     #header-nav {
         border-right: 2px solid #222831;
+        border-bottom: none;
         justify-content: flex-start;
         height: 100vh;
         position: fixed;
