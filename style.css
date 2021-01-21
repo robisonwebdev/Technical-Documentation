@@ -32,6 +32,7 @@ body, #header-nav, #navbar  {
 /* Navigation */
 #nav-div {
     overflow: auto;
+    height: 100%;
     width: 100%;
 }
 
@@ -112,6 +113,10 @@ code {
         position: fixed;
         width: 250px;
         z-index: 2;
+    } 
+
+    #navbar {
+        padding-bottom: 10px;
     }
 
     /* Main Content */
