@@ -127,7 +127,7 @@ code {
         border-right: 2px solid #222831;
         border-bottom: none;
         justify-content: flex-start;
-        height: 100vh;
+        height: 100%;
         position: fixed;
         width: 250px;
         z-index: 2;
