@@ -11,6 +11,11 @@ body, #header-nav, #navbar  {
     justify-content: center;
 }
 
+body {
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+}
+
 /* Header - Nav */
 #header-nav {
     height: 205px;
@@ -94,6 +99,7 @@ body, #header-nav, #navbar  {
 code {
     background-color: lightgoldenrodyellow;
     border-left: 5px solid black;
+    font-size: 12px;
     margin: 5px 0 5px 30px;
     padding: 20px;
 }
