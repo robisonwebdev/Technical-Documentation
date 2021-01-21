@@ -42,8 +42,8 @@ body {
 /* Navigation */
 #nav-div {
     background-color: #e8e8e8;
-    overflow: auto;
     height: 100%;
+    overflow: auto;
     width: 100%;
 }
 
@@ -69,8 +69,8 @@ body {
 
 /* Main Content */
 #main-div {
-    width: 100%;
     overflow: auto;
+    width: 100%;
 }
 
 #main-doc {
@@ -141,9 +141,5 @@ code {
         position: absolute;
         width: calc(100% - 180px);
         z-index: 1;
-    }
-
-    #main-doc {
-
     }
 }
