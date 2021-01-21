@@ -41,6 +41,7 @@ body {
 
 /* Navigation */
 #nav-div {
+    background-color: #e8e8e8;
     overflow: auto;
     height: 100%;
     width: 100%;
@@ -138,7 +139,11 @@ code {
     #main-div {
         left: 250px;
         position: absolute;
-        width: 90%;
+        width: 100%;
         z-index: 1;
+    }
+
+    #main-doc {
+
     }
 }
