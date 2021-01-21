@@ -12,13 +12,16 @@ body, #header-nav, #navbar  {
 }
 
 body {
+    color: #222831;
+    background-color: #e8e8e8;
     font-family: 'Abel', sans-serif;
     font-size: 18px;
 }
 
 /* Header - Nav */
 #header-nav {
-    height: 205px;
+    border-bottom: 2px solid #222831;
+    height: 215px;
     width: 100%;
 }
 
@@ -28,7 +31,9 @@ body {
 }
 
 #main-header {
-    background-color: dimgray;
+    background-color: #222831;
+    color: #e8e8e8;
+    font-size: 28px;
     padding: 20px 0;
     text-align: center;
     width: 100%;
@@ -52,11 +57,13 @@ body {
 }
 
 .nav-link:nth-child(odd) {
-    background-color: gainsboro;
+    background-color: #e8e8e8;
+    color: #222831;
 }
 
 .nav-link:nth-child(even) {
-    background-color: grey;
+    background-color: #30475e;
+    color: #e8e8e8;
 }
 
 /* Main Content */
@@ -97,8 +104,9 @@ body {
 }
 
 code {
-    background-color: lightgoldenrodyellow;
-    border-left: 5px solid black;
+    background-color: #30475e;
+    border-left: 5px solid #f05454;
+    color: #e8e8e8;
     font-size: 12px;
     margin: 5px 0 5px 30px;
     padding: 20px;
@@ -114,6 +122,7 @@ code {
 
     /* Header - Nav */
     #header-nav {
+        border-right: 2px solid #222831;
         justify-content: flex-start;
         height: 100vh;
         position: fixed;
@@ -129,6 +138,7 @@ code {
     #main-div {
         left: 250px;
         position: absolute;
+        width: 90%;
         z-index: 1;
     }
 }
